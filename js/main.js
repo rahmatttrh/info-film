@@ -108,3 +108,7 @@ $('#hasil-pencarian').on('click','.detail', function(){
 
   });
 });
+
+
+
+
