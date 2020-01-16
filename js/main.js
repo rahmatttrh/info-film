@@ -14,13 +14,13 @@ function cariFilm(){
 
         $.each(films, function(i, data){
           $('#hasil-pencarian').append(`
-            <div class="col-md-4">
+            <div class="col-md-3">
             <div class="card mb-3">
               <img src="`+ data.Poster +`" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">`+ data.Title +`</h5>
                 <h6 class="card-subtitle mb-2 text-muted">`+ data.Year +`</h6>
-                <h6 class="card-subtitle mb-2 text-muted">`+ data.Actors +`</h6>
+              
 
                 <a href="#" class="btn btn-dark detail" data-toggle="modal" data-target="#exampleModal" data-id="`+ data.imdbID +`">Detail</a>
               </div>
