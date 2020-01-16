@@ -68,7 +68,7 @@ $('#search-input').on('keyup', function(e){
 // })
 $('#hasil-pencarian').on('click','.detail', function(){
   $.ajax({
-    url: 'http://omdbapi.com',
+    url: 'https://omdbapi.com',
     dataType: 'json',
     type: 'get',
     data: {
